@@ -1,0 +1,183 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+.cabecalho {
+    padding: 30px 15px;
+    position: relative;
+}
+.cabecalho .logo {
+    background: url(imagens/logo.jpg) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+}
+
+.cabecalho .logo h1 {
+    font-size: 0;
+}
+.cabecalho nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+} 
+
+.cabecalho ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover {
+    font-weight: 600;
+}
+
+/* Incios da section */
+.one-section {
+    height: 632px;
+    background-image: url('imagens/painel.jpg');
+    background-position: center;
+}
+
+
+.one-section h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 400px;
+    text-align: center;
+    line-height: 632px;
+}
+
+.text-section {
+    padding: 150px;
+    text-align: center;
+    clear: both;
+}
+
+.text-section img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.text-section h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.text-section p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.text-section.ondeestamos p {
+    font-size: 28px;
+    width: 400px;
+}
+
+.tri-section div{
+    float: left;
+}
+
+.tri-section .grande {
+    background: url(./imagens/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.tri-section .pequeno {
+    background: url(./imagens/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.tri-section .pequeno.grao {
+    background: url(./imagens/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.tri-section .medio {
+    background: url(./imagens/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+
+.quin-section {
+    background: url(./imagens/fundo-contato.jpg) center center no-repeat;
+    color: white;
+    height: 600px;
+    position: relative;
+}
+
+.quin-section h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.quin-section address {
+    margin-top: 30px;
+}
+
+.quin-section address p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.quin-section .text {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+
+
+/* Inicio do rodape */
+.rodape {
+    background: url(imagens/fundo-rodape.jpg) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover ;
+}
+
+.rodape ul {
+    float: right;
+}
+
+.rodape ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a {
+    color: white;
+}
+
+.rodape ul li a:hover {
+    font-weight: 600;
+}
+
+.rodape .copyright {
+    color: white;
+}
+
+.rodape .rede-sociais .instagram,
+.rodape .rede-sociais .facebook{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.rodape .rede-sociais {
+    float: right;
+    clear: both;
+}
+
+.rodape .informacoes-rodape {
+    margin-top: 30px;
+}

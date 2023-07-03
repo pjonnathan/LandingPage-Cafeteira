@@ -1,0 +1,108 @@
+@media (max-width: 992px) {
+    .text-section {
+        padding: 153px 25px;
+    }
+    .text-section p,
+    .text-section.ondeestamos p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .quin-section {
+        background-image: none;
+        background-color: #D3AE71;
+    }
+
+    .quin-section .text {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    } 
+
+    .quin-section h2 {
+        margin-bottom: 46px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .tri-section .grande,
+    .tri-section .medio {
+        width: 100%;
+    }
+
+    .tri-section .pequeno,
+    .tri-section .pequeno.grao {
+        width: 50%;
+    }
+
+    .rodape {
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+
+    .rodape .logo-rodape {
+        display: block;
+        margin-bottom: 122px;
+    }
+
+    .rodape ul {
+        display: block;
+        width: 100%;
+    }
+    .rodape ul li {
+        display: block;
+    }
+
+    .rodape ul li a {
+        font-size: 2rem;
+    }
+
+    .rodape .rede-sociais {
+        float: none;
+        margin-bottom: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    .cabecalho .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li {
+        display: block;
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    .one-section h2 {
+        font-size: 2.5rem;
+    }
+    .text-section h2 {
+        font-size: 3rem;
+    }
+    .text-section.ondeestamos p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px){
+    .tri-section .pequeno,
+    .tri-section .pequeno.grao {
+        width: 100%;
+    }
+}
